@@ -1,6 +1,6 @@
 require_relative 'lib/game'
-require 'colorize'
 
-game = Game.new
+six_pegs = ["r","b","y","g","p","o"]
 
+game = Game.new(six_pegs)
 game.start
